@@ -5,5 +5,23 @@
     "config": "^3.3.7",
     "express-validator": "^6.14.0",
     "mongoose": "^6.1.7"
-  }
+  },
+  "name": "project9-mern",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hubduing/MERN-cloud-disk.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hubduing/MERN-cloud-disk/issues"
+  },
+  "homepage": "https://github.com/hubduing/MERN-cloud-disk#readme",
+  "description": ""
 }
