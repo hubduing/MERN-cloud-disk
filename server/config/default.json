@@ -1,4 +1,6 @@
 {
   "serverPort": 5000,
-  "dbUrl": "mongodb+srv://pendalff:vi9qwe987@cluster0.rzvpt.mongodb.net/cloud?retryWrites=true&w=majority"
+  "dbUrl": "mongodb+srv://pendalff:vi9qwe987@cluster0.rzvpt.mongodb.net/cloud?retryWrites=true&w=majority",
+  "secretKey": "borisov-secret-key-mern"
+
 }

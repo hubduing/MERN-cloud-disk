@@ -4,12 +4,12 @@
     "bcryptjs": "^2.4.3",
     "config": "^3.3.7",
     "express-validator": "^6.14.0",
+    "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.1.7"
   },
   "name": "project9-mern",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
