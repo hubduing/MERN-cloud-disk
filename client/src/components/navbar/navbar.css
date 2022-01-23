@@ -1,9 +1,13 @@
 .navbar {
   display: flex;
   height: 50px;
-  justify-content: center;
+  padding: 0 50px;
+  align-items: center;
   background-color: white;
   width: 100%;
+}
+.navbar__box {
+  display: flex;
 }
 .navbar__header {
   margin-left: 10px;
@@ -11,11 +15,11 @@
   font-weight: 700;
 }
 .navbar__login {
-  margin-left: auto;
   margin-right: 20px;
 }
 .container {
   width: 1140px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }

@@ -5,7 +5,7 @@
   color: #566885;
 }
 body {
-  background-color: #E9E6E6;
+  background-color: #e9e6e6;
 }
 #root {
   width: 100%;
@@ -20,4 +20,3 @@ body {
   display: flex;
   flex-direction: column;
 }
-/*# sourceMappingURL=app.css.map */

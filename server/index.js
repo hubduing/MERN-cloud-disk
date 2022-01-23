@@ -9,8 +9,11 @@ const app = express();
 
 // порт получаем с помощью config из файла ../config/default.json обращаясь по полям
 const PORT = config.get('serverPort');
+// мидлвэр для разрешения cors на сервере
+const corsMiddleware = require('./middleware/cors.middleware');
 
 // указываем в методе use() url по которому будет обрабатываться router
+app.use(corsMiddleware)
 app.use(express.json())
 app.use('/api/auth', authRouter)
 
