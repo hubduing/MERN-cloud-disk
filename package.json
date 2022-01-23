@@ -5,6 +5,7 @@
     "config": "^3.3.7",
     "express-validator": "^6.14.0",
     "jsonwebtoken": "^8.5.1",
+    "less": "^4.1.2",
     "mongoose": "^6.1.7"
   },
   "name": "project9-mern",
