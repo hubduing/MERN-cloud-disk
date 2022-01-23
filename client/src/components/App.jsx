@@ -1,9 +1,12 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import './app.css'
+import Navbar from "./navbar/Navbar";
 
 function App() {
     return (
-        <div>Hello</div>
+        <div>
+            <Navbar/>
+        </div>
     );
 }
 
